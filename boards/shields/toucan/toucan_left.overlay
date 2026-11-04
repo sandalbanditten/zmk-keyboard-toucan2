@@ -41,6 +41,7 @@ nice_view_spi: &spi0 {
     , <&gpio1 11 GPIO_ACTIVE_HIGH>
     , <&gpio1 12 GPIO_ACTIVE_HIGH>
     ;
+    debounce-release-ms = <15>;
 };
 
 &trackpad_listener {
